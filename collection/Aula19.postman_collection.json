@@ -1,9 +1,10 @@
 {
   "info": {
-    "_postman_id": "a13eecaf-4bea-49c8-b0a8-970245bada3f",
+    "_postman_id": "bbdd6b26-8715-4f7a-8a67-170beebbefac",
     "name": "Aula19",
     "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-    "_exporter_id": "54272970"
+    "_exporter_id": "54272970",
+    "_collection_link": "https://go.postman.co/collection/54272970-bbdd6b26-8715-4f7a-8a67-170beebbefac?source=collection_link"
   },
   "item": [
     {
@@ -81,6 +82,15 @@
       "request": {
         "method": "PUT",
         "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"nome\": \"Caneta Azul Luxo\",\r\n  \"preco\": 7.90,\r\n  \"fabricante\": {\r\n    \"nome\": \"BIC\",\r\n    \"endereco\": {\r\n      \"cidade\": \"Curitiba\",\r\n      \"pais\": \"Brasil\"\r\n    }\r\n  }\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
         "url": {
           "raw": "http://localhost:3000/api/produto/2",
           "protocol": "http",
